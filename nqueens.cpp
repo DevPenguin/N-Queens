@@ -11,7 +11,7 @@
 #include <cstdlib>
 using namespace std;
 
-bool isPositionValid(int rowCount, int columnCount, vector<int> state)
+bool isPositionValid(int rowCount, int columnCount, vector<int>& state)
 {
 	//check rows conflict
 	//I'm sure that there isn't any column conflict because I'm filling column by column,
